@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "path": "python"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "python-envs.pythonProjects": [
+      "${workspaceFolder}"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Debug cosmos-mirror",
+        "type": "python",
+        "request": "launch",
+        "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+        "program": "${workspaceFolder}/main.py",
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "justMyCode": true
+      }
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python"
+    ]
+  }
+}

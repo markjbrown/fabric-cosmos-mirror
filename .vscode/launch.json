@@ -1,0 +1,7 @@
+{
+    // This repository contains samples in multiple languages.
+    // To avoid debug adapter errors when users don't have every language extension installed,
+    // use the per-language workspace files at the repo root (e.g., Go.code-workspace).
+    "version": "0.2.0",
+    "configurations": []
+}

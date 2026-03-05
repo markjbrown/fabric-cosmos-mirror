@@ -1,0 +1,8 @@
+{
+    // Intentionally empty.
+    // This repository supports multiple languages/frameworks.
+    // Open the appropriate `*.code-workspace` file at the repo root to
+    // get language-specific tasks.
+    "version": "2.0.0",
+    "tasks": []
+}
